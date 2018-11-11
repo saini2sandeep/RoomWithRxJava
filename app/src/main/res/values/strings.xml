@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RoomWithRxSample</string>
+    <string name="features">Features</string>
+    <string name="general_details">General Details</string>
+    <string name="company_name">Company Name :</string>
+    <string name="enter_company_name">Enter company name..</string>
+    <string name="model">Model :</string>
+    <string name="enter_car_model">Enter car model..</string>
+    <string name="color">Color :</string>
+    <string name="enter_car_color">Enter car color..</string>
+    <string name="car_description">Car description:</string>
+    <string name="enter_car_description">Enter car description..</string>
+    <string name="car_features">Car Features</string>
+    <string name="engine_power">Engine power: (in CC)</string>
+    <string name="enter_engine_power">Enter engine power..</string>
+    <string name="fuel_type">Fuel type:</string>
+    <string name="selling_price_tv">Selling Price: (in Lacs)</string>
+    <string name="add_new_car">Add New Car</string>
+    <string name="enter_selling_price">Enter selling price..</string>
+    <string name="car_list">Car List</string>
+    <string name="add_car">Add Car</string>
+    <string name="mielage_tv">Mielage:</string>
+    <string name="enter_mielage">Enter mielage..</string>
+    <string name="more">More</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/toolbar_layout" />
+
+    <Button
+        android:id="@+id/button_add_new_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/vertical_margin_16"
+        android:layout_marginStart="@dimen/vertical_margin_16"
+        android:layout_below="@+id/toolbar_layout"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:text="Add New Car"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/tv_16" />
+
+    <Button
+        android:id="@+id/button_show_car_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_add_new_car"
+        android:layout_marginEnd="@dimen/vertical_margin_16"
+        android:layout_marginStart="@dimen/vertical_margin_16"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorPrimary"
+        android:text="Show Car List"
+        android:textColor="@color/textColorWhite"
+        android:textSize="@dimen/tv_16" />
+
+</RelativeLayout>
